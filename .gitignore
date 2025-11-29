@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.env*/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Data (keep big/raw data out of git)
+data/raw/
+data/processed/
+data/annotations/*.zip
+*.png
+*.jpg
+*.jpeg
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.onnx
+runs/
+outputs/logs/
+outputs/runs_yolo/
+outputs/runs_rtdetr/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
