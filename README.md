@@ -15,18 +15,24 @@ We compare **YOLOv8m-seg** and an **RT-DETR** variant on a Kaggle pothole datase
 
 ## 2. Dataset
 
-- **Source:** [Kaggle – Pothole Detection Dataset](https://www.kaggle.com/datasets/atulyakumar98/pothole-detection-dataset)
-- **Content:** Road images captured in real-world conditions with visible potholes.
-- **Annotations:**
-  - Bounding boxes in YOLO format for pothole detection.
-  - (Optional) Segmentation masks or conversion for YOLOv8 segmentation and RT-DETR.
+The dataset used in this project was obtained from Kaggle:
 
-### 2.1. Data Organization
+- **Name:** Pothole Detection Dataset  
+- **Source:** https://www.kaggle.com/datasets/atulyakumar98/pothole-detection-dataset
 
-After downloading the dataset, organize it as:
+The raw images and labels are **not included** in this GitHub repository in order to
+respect dataset licensing and keep the repo size small.
 
-```text
-data/
-├── raw/              # original Kaggle download
-├── processed/        # resized / cleaned images
-└── annotations/      # YOLO labels, segmentation masks
+To reproduce the experiments:
+
+1. Download the dataset from Kaggle.
+2. Extract it into the local `data/` folder at the root of this project, e.g.:
+
+   ```text
+   Pothole-detection/
+   ├── pothole_detection_yolov8_rtdetr.ipynb
+   ├── README.md
+   └── data/
+       ├── images/
+       └── labels/
+
