@@ -32,7 +32,7 @@ To reproduce the experiments:
    Pothole-detection/
    ├── pothole_detection_yolov8_rtdetr.ipynb
    ├── README.md
-   └── data/
+   └── dataset/
        ├── images/
        └── labels/
 
