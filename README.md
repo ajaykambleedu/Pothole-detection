@@ -18,7 +18,9 @@ We compare **YOLOv8m-seg** and an **RT-DETR** variant on a Kaggle pothole datase
 The dataset used in this project was obtained from Kaggle:
 
 - **Name:** Pothole Detection Dataset  
-- **Source:** https://www.kaggle.com/datasets/atulyakumar98/pothole-detection-dataset
+- **Kaggle:** https://www.kaggle.com/datasets/atulyakumar98/pothole-detection-dataset, https://www.kaggle.com/datasets/mahyeks/pothrgbd-rgb-and-depth-images-of-potholes
+- **hugging face:** Ryukijano/Pothole-detection-Yolov8, keremberke/pothole-segmentation, manot/pothole-segmentation
+
 
 The raw images and labels are **not included** in this GitHub repository in order to
 respect dataset licensing and keep the repo size small.
