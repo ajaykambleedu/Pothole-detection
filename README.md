@@ -4,12 +4,11 @@
 
 This repository contains a computer vision project that detects and segments potholes from road images using deep learning. The goal is to support road maintenance and safety by automatically identifying pothole locations, comparing different object detection architectures, and producing metrics that can guide model selection for real-world deployment.
 
-We compare **YOLOv8m-seg** and an **RT-DETR** variant on a Kaggle pothole dataset. The project includes:
+We compare **YOLOv8m-seg** and an **RT-DETR** variant on a Kaggle and Hugging face pothole dataset. The project includes:
 - End-to-end training pipelines
 - Evaluation on a held-out test set
 - Benchmarking using **mAP**, **IoU**, **precision/recall**, **F1-score**, and runtime/resource usage
 
-> This repository is structured as a **team-ready, production-style** project with clear code organization, comments, and documentation, but can also be used by a single developer.
 
 ---
 
